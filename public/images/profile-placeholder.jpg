@@ -1,0 +1,57 @@
+# Profile Picture Placeholder
+
+This file represents where your profile picture should be placed.
+
+## To add your profile picture:
+
+1. Take or select a professional headshot photo
+2. Crop it to a square aspect ratio (1:1)
+3. Optimize the image size (recommended: 400x400px)
+4. Save it as `profile.jpg` or `profile.png`
+5. Place it in the `public/images/` folder
+6. Update the image path in the About component
+
+## Profile Picture Guidelines:
+
+### Professional Standards:
+- **High Quality**: Clear, well-lit, high-resolution image
+- **Professional Attire**: Business casual or formal clothing
+- **Clean Background**: Solid color or subtle pattern
+- **Good Lighting**: Natural light or professional lighting
+- **Eye Contact**: Look directly at the camera
+- **Smile**: Friendly, approachable expression
+
+### Technical Requirements:
+- **Format**: JPG, PNG, or WebP
+- **Size**: 400x400px to 800x800px
+- **Aspect Ratio**: 1:1 (square)
+- **File Size**: Under 500KB for web optimization
+- **Color**: Full color (avoid black and white unless it's your brand)
+
+### Composition Tips:
+- **Framing**: Head and shoulders visible
+- **Positioning**: Centered in the frame
+- **Distance**: Not too close, not too far
+- **Angle**: Straight on or slight angle
+- **Background**: Contrasts with your clothing
+
+### What to Avoid:
+- Selfies or casual photos
+- Group photos or cropped group photos
+- Photos with distracting backgrounds
+- Overly filtered or edited photos
+- Photos with poor lighting or blur
+- Inappropriate clothing or expressions
+
+### File Naming:
+- `profile.jpg` - Main profile picture
+- `profile-placeholder.jpg` - Placeholder image
+- `default-avatar.jpg` - Fallback image
+
+The upload functionality in the About component allows you to:
+1. Click the upload button (camera icon)
+2. Select an image from your device
+3. Preview it immediately
+4. The image will be displayed in the circular frame
+
+For production use, you should implement proper image upload to a cloud service like AWS S3, Cloudinary, or similar.

@@ -1,0 +1,44 @@
+# Default Avatar Placeholder
+
+This is a placeholder for the default avatar image that will be shown if no profile picture is uploaded or if the uploaded image fails to load.
+
+## Recommended Default Avatar Options:
+
+1. **Generic Avatar Icon**: A simple user silhouette or icon
+2. **Initials Avatar**: Circle with user's initials (A.J. for Alex Johnson)
+3. **Abstract Pattern**: Geometric pattern or gradient
+4. **Professional Placeholder**: Clean, minimal design
+
+## Implementation:
+
+You can replace this text file with an actual image file:
+- `default-avatar.jpg`
+- `default-avatar.png` 
+- `default-avatar.svg`
+
+## SVG Example (save as default-avatar.svg):
+
+```svg
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#grad)"/>
+  <text x="100" y="120" font-family="Inter, sans-serif" font-size="60" font-weight="600" text-anchor="middle" fill="white">AJ</text>
+</svg>
+```
+
+This creates a gradient circle with the initials "AJ" for Alex Johnson.
+
+## Alternative: CSS-Generated Avatar
+
+You can also create avatars programmatically using CSS and JavaScript libraries like:
+- **Boring Avatars**: Generate SVG avatars
+- **Dicebear**: API for generating avatars
+- **Gravatar**: Email-based avatars
+- **UI Avatars**: Text-based avatars
+
+The About component will automatically fall back to this default image if the main profile image fails to load.

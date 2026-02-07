@@ -1,0 +1,72 @@
+# Resume PDF Placeholder
+
+This file represents where your actual resume PDF should be placed.
+
+## To add your resume:
+
+1. Create or export your resume as a PDF file
+2. Name it `resume.pdf`
+3. Place it in the `public` folder
+4. The download link in the portfolio will automatically work
+
+## Resume should include:
+
+- **Contact Information**
+  - Full name
+  - Email address
+  - Phone number
+  - LinkedIn profile
+  - GitHub profile
+  - Location
+
+- **Professional Summary**
+  - Brief overview of your expertise
+  - Key skills and technologies
+  - Career objectives
+
+- **Education**
+  - B.Tech in Cyber Security Science (2020-2024)
+  - University name
+  - GPA (if impressive)
+  - Relevant coursework
+  - Academic achievements
+
+- **Technical Skills**
+  - Frontend: React, Next.js, TypeScript, Tailwind CSS
+  - Backend: Node.js, Express.js, MongoDB
+  - Security: JWT, OAuth, Encryption, Penetration Testing
+  - Tools: Git, Docker, AWS, Vercel
+
+- **Projects**
+  - 3-5 key projects with descriptions
+  - Technologies used
+  - Links to live demos and GitHub repos
+  - Security implementations
+
+- **Experience**
+  - Work experience (if any)
+  - Internships
+  - Freelance projects
+  - Volunteer work
+
+- **Certifications**
+  - AWS certifications
+  - Security certifications (CEH, CISSP, etc.)
+  - Development certifications
+
+- **Additional Sections**
+  - Languages spoken
+  - Relevant hobbies/interests
+  - Publications or research (if any)
+
+## Tips for a great developer resume:
+
+1. **Keep it concise** - 1-2 pages maximum
+2. **Use action verbs** - Built, Developed, Implemented, Secured
+3. **Quantify achievements** - "Improved performance by 40%"
+4. **Highlight security focus** - Emphasize cybersecurity skills
+5. **Include keywords** - Use relevant tech keywords for ATS
+6. **Professional formatting** - Clean, readable design
+7. **Proofread carefully** - No typos or grammatical errors
+
+Replace this file with your actual resume PDF!
