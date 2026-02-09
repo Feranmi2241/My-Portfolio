@@ -4,7 +4,6 @@ import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Camera, Upload, User } from 'lucide-react'
 import Image from 'next/image'
-import defaultProfilePic from '../Picture/1770466447466.PNG'
 
 interface ProfilePictureProps {
   className?: string
@@ -12,7 +11,7 @@ interface ProfilePictureProps {
 }
 
 const ProfilePicture = ({ className = '', size = 'lg' }: ProfilePictureProps) => {
-  const [profileImage, setProfileImage] = useState<string | null>(defaultProfilePic as unknown as string)
+  const [profileImage, setProfileImage] = useState<string>('/images/Tech-savvy developer with futuristic vision.png')
   const [isHovered, setIsHovered] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
 
@@ -58,8 +57,6 @@ const ProfilePicture = ({ className = '', size = 'lg' }: ProfilePictureProps) =>
         transition={{ duration: 0.3 }}
       >
         {profileImage ? (
-          // If the image is a data URL (uploaded), use a normal <img> element.
-          // Otherwise use Next's <Image> for the imported static image.
           profileImage.startsWith('data:') ? (
             <img
               src={profileImage}
