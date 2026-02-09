@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const { name, email, subject, message } = validation.data
+    const { name, email, subject, message } = validation.data!
 
     // Here you would typically:
     // 1. Save to database
