@@ -7,7 +7,7 @@ const Experience = () => {
   const education = [
     {
       degree: 'Bachelor of Technology in Cyber Security Science',
-      institution: 'Ladoke Akintola University of Techmology',
+      institution: 'Ladoke Akintola University of Technology',
       location: 'Ogbomosho, Oyo State',
       period: '2020 - 2025',
       highlights: []
