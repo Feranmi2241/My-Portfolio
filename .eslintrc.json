@@ -3,6 +3,8 @@
   "rules": {
     "no-unused-vars": "off",
     "no-console": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-img-element": "off",
     "prefer-const": "error",
     "no-var": "error"
   }
