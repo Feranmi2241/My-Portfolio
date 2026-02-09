@@ -1,12 +1,12 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { GraduationCap, Shield, Code, Users, Award, Target, Zap, Heart, Camera, Upload } from 'lucide-react'
+import { GraduationCap, Shield, Code, Users, Award, /* Target, */ Zap, Heart, Camera, Upload } from 'lucide-react'
 import Image from 'next/image'
 import { useState } from 'react'
 
 const About = () => {
-  const [profileImage, setProfileImage] = useState('/images/profile-placeholder.jpg')
+  const [profileImage, setProfileImage] = useState('/images/Tech-savvy developer with futuristic vision.png')
 
   const stats = [
     { number: '2+', label: 'Years Learning', icon: Award },
@@ -332,7 +332,7 @@ const About = () => {
           viewport={{ once: true }}
           className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
         >
-          {highlights.map((item, index) => (
+          {highlights.map((item) => (
             <motion.div
               key={item.title}
               variants={itemVariants}
@@ -394,7 +394,7 @@ const About = () => {
           viewport={{ once: true }}
           className="grid grid-cols-2 md:grid-cols-4 gap-8"
         >
-          {stats.map((stat, index) => (
+          {stats.map((stat) => (
             <motion.div
               key={stat.label}
               variants={itemVariants}

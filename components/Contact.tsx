@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, CheckCircle, AlertCircle, Sparkles, MessageCircle } from 'lucide-react'
+import { Mail, Phone, MapPin, Send, Github, Linkedin, /* Twitter, */ CheckCircle, AlertCircle, Sparkles, MessageCircle } from 'lucide-react'
 
 const Contact = () => {
   const [formData, setFormData] = useState({

@@ -52,14 +52,14 @@ export async function POST(request: NextRequest) {
     // 3. Log the contact attempt
     
     // For demo purposes, we'll simulate processing
-    console.log('Contact form submission:', {
-      name,
-      email,
-      subject,
-      message: message.substring(0, 100) + '...',
-      timestamp: new Date().toISOString(),
-      ip: identifier
-    })
+    // console.log('Contact form submission:', {
+    //   name,
+    //   email,
+    //   subject,
+    //   message: message.substring(0, 100) + '...',
+    //   timestamp: new Date().toISOString(),
+    //   ip: identifier
+    // })
 
     // Simulate email sending (replace with actual email service)
     // await sendEmail({
@@ -91,7 +91,7 @@ export async function POST(request: NextRequest) {
     )
 
   } catch (error) {
-    console.error('Contact form error:', error)
+    // console.error('Contact form error:', error)
     
     return NextResponse.json(
       { error: 'Internal server error. Please try again later.' },

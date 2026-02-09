@@ -3,6 +3,8 @@
 import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Camera, Upload, User } from 'lucide-react'
+import Image from 'next/image'
+import defaultProfilePic from '../Picture/1770466447466.PNG'
 
 interface ProfilePictureProps {
   className?: string
@@ -10,7 +12,7 @@ interface ProfilePictureProps {
 }
 
 const ProfilePicture = ({ className = '', size = 'lg' }: ProfilePictureProps) => {
-  const [profileImage, setProfileImage] = useState<string | null>(null)
+  const [profileImage, setProfileImage] = useState<string | null>(defaultProfilePic as unknown as string)
   const [isHovered, setIsHovered] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
 
@@ -56,11 +58,19 @@ const ProfilePicture = ({ className = '', size = 'lg' }: ProfilePictureProps) =>
         transition={{ duration: 0.3 }}
       >
         {profileImage ? (
-          <img
-            src={profileImage}
-            alt="Profile"
-            className="w-full h-full object-cover"
-          />
+          // If the image is a data URL (uploaded), use a normal <img> element.
+          // Otherwise use Next's <Image> for the imported static image.
+          profileImage.startsWith('data:') ? (
+            <img
+              src={profileImage}
+              alt="Profile"
+              className="w-full h-full object-cover"
+            />
+          ) : (
+            <div className="relative w-full h-full">
+              <Image src={profileImage} alt="Profile" fill className="object-cover" />
+            </div>
+          )
         ) : (
           <div className="w-full h-full bg-gradient-to-br from-primary-600 to-accent-600 flex items-center justify-center">
             <User size={size === 'lg' ? 80 : size === 'md' ? 60 : 40} className="text-white/70" />
