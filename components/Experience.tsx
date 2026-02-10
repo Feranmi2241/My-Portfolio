@@ -343,7 +343,7 @@ const Experience = () => {
                 Download PDF Resume
               </motion.a>
               <motion.a
-                href="https://www.linkedin.com/in/feranmi-damilare-93a10a231"
+                href="www.linkedin.com/in/oyeniyi-feranmi-93a10a231"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}

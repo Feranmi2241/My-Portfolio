@@ -27,10 +27,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Alex Johnson - MERN Stack & Cybersecurity Developer',
+    title: 'Oyeniyi Feranmi - MERN Stack & Cybersecurity Developer',
     description: 'Professional portfolio showcasing secure, scalable web applications',
     images: ['/images/og-image.jpg'],
   },
+
   // robots: {
   //   index: true,
   //   follow: true,

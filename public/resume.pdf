@@ -1,71 +1,116 @@
-# Resume PDF Placeholder
+OYENIYI FERANMI DAMILARE
 
-This file represents where your actual resume PDF should be placed.
+Full Stack Developer (Frontend-Focused)
+Ogbomosho, Oyo State, Nigeria
 
-## To add your resume:
+GitHub: https://github.com/Feranmi2241
 
-1. Create or export your resume as a PDF file
-2. Name it `resume.pdf`
-3. Place it in the `public` folder
-4. The download link in the portfolio will automatically work
+LinkedIn: https://www.linkedin.com/in/oyeniyi-feranmi-93a10a231
 
-## Resume should include:
+Portfolio: https://my-portfolio-1258.vercel.app/
 
-- **Contact Information**
-  - Full name
-  - Email address
-  - Phone number
-  - LinkedIn profile
-  - GitHub profile
-  - Location
+PROFESSIONAL SUMMARY
 
-- **Professional Summary**
-  - Brief overview of your expertise
-  - Key skills and technologies
-  - Career objectives
+A results-driven Junior Full Stack Developer with strong hands-on experience in building and deploying modern web applications. Specialized in developing scalable frontend and backend solutions using JavaScript-based technologies, with practical experience integrating databases, securing applications, and deploying production-ready systems. Focused primarily on full stack development, with a solid foundation in real-world project implementation involving user and admin role separation, data security, and performance optimization.
 
-- **Education**
-  - B.Tech in Cyber Security Science (2020-2025
-  - University name
-  - Relevant coursework
-  - Academic achievements
+TECHNICAL SKILLS
+Frontend Development
 
-- **Technical Skills**
-  - Frontend: React, Next.js, TypeScript, Tailwind CSS
-  - Backend: Node.js, Express.js, MongoDB
-  - Security: JWT, OAuth, Encryption, Penetration Testing
-  - Tools: Git, Docker, AWS, Vercel
+HTML5
 
-- **Projects**
-  - 3-5 key projects with descriptions
-  - Technologies used
-  - Links to live demos and GitHub repos
-  - Security implementations
+CSS3
 
-- **Experience**
-  - Work experience (if any)
-  - Internships
-  - Freelance projects
-  - Volunteer work
+JavaScript (ES6+)
 
-- **Certifications**
-  - AWS certifications
-  - Security certifications (CEH, CISSP, etc.)
-  - Development certifications
+React.js
 
-- **Additional Sections**
-  - Languages spoken
-  - Relevant hobbies/interests
-  - Publications or research (if any)
+Next.js
 
-## Tips for a great developer resume:
+TypeScript
 
-1. **Keep it concise** - 1-2 pages maximum
-2. **Use action verbs** - Built, Developed, Implemented, Secured
-3. **Quantify achievements** - "Improved performance by 40%"
-4. **Highlight security focus** - Emphasize cybersecurity skills
-5. **Include keywords** - Use relevant tech keywords for ATS
-6. **Professional formatting** - Clean, readable design
-7. **Proofread carefully** - No typos or grammatical errors
+Backend Development
 
-Replace this file with your actual resume PDF!
+Node.js
+
+Express.js
+
+MongoDB
+
+GraphQL
+
+RESTful APIs
+
+Middleware implementation
+
+JSON Web Token (JWT) Authentication
+
+OAuth Authentication
+
+Database & Data Handling
+
+MongoDB (CRUD operations, schema design)
+
+Firebase (Authentication and data handling)
+
+Version Control
+
+Git
+
+GitHub
+
+Hosting & Deployment
+
+Vercel (Frontend deployment)
+
+Render (Backend deployment)
+
+Firebase Hosting
+
+WORK EXPERIENCE
+Junior Full Stack Developer
+
+Project: Real Estate Management Web Application
+Live Project: https://real-estate-project-front-end.vercel.app/
+
+Worked on a full-stack real estate platform featuring separate user and admin dashboards, designed to manage property listings, transactions, and communication efficiently.
+
+Key Responsibilities & Contributions:
+
+Integrated frontend and backend systems to enable seamless data flow between the application and the database.
+
+Implemented secure data fetching mechanisms to retrieve:
+
+Chat history between users and admin.
+
+Transaction and payment-related information.
+
+Property listings categorized by for rent, for sale, sold, and rented statuses.
+
+Ensured that users only see property details exactly as listed and managed by the admin.
+
+Built logic to calculate revenue analytics on a daily, weekly, monthly, and yearly basis based on transaction records and also in a graphical format.
+
+Implemented role-based access control to restrict unregistered users from accessing confidential pages and sensitive credentials.
+
+Applied JWT-based authentication to protect private routes and secure user sessions.
+
+Worked on adding property location details so users can clearly identify the exact physical location of listed houses.
+
+Collaborated with database logic to ensure accurate synchronization between admin actions and user-facing content.
+
+Challenges Solved:
+
+Resolving frontend-to-backend connectivity issues for real-time and historical data fetching.
+
+Managing access restrictions for unauthenticated users.
+
+Handling structured data presentation for different property states and revenue calculations.
+
+Ensuring data integrity between admin inputs and user-visible content.
+
+EDUCATION
+
+Bachelor of Technology (B.Tech) – Cyber Security
+2020 – 2025
+
+Academic background focused exclusively on Full Stack Web Development, with practical application of frontend and backend technologies rather than non-development cybersecurity domains.

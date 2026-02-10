@@ -84,7 +84,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/feranmi-damilare-93a10a231',
+      href: 'www.linkedin.com/in/oyeniyi-feranmi-93a10a231',
       color: 'hover:text-blue-400',
       bgColor: 'hover:bg-blue-900/30'
     },

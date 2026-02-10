@@ -16,14 +16,14 @@ const Footer = () => {
       { name: 'Contact', href: '#contact' },
     ],
     'Projects': [
-      { name: 'SecureChat Pro', href: '#projects' },
-      { name: 'CyberShield Dashboard', href: '#projects' },
-      { name: 'EcoCommerce Platform', href: '#projects' },
-      { name: 'DevSecOps Pipeline', href: '#projects' },
+      { name: 'Project 1', href: '#projects' },
+      { name: 'Project 2', href: '#projects' },
+      { name: 'Project 3', href: '#projects' },
+      { name: 'Project 4', href: '#projects' },
     ],
     'Connect': [
       { name: 'GitHub', href: 'https://github.com/Feranmi2241' },
-      { name: 'LinkedIn', href: 'https://www.linkedin.com/in/feranmi-damilare-93a10a231' },
+      { name: 'LinkedIn', href: 'www.linkedin.com/in/oyeniyi-feranmi-93a10a231' },
       { name: 'WhatsApp', href: 'https://wa.me/2348052052706' },
       { name: 'Email', href: 'mailto:feranmiayodeji24@gmail.com' },
     ],
@@ -124,7 +124,7 @@ const Footer = () => {
               whileHover={{ color: "#d1d5db" }}
               transition={{ duration: 0.3 }}
             >
-              &copy; {new Date().getFullYear()} Oyenoyi Fernami (Positive Mind) all right reserved...
+              &copy; {new Date().getFullYear()} Oyeniyi Fernami (Positive Mind) all right reserved...
             </motion.p>
             <motion.p 
               className="mt-1"
