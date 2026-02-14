@@ -270,7 +270,7 @@ const Hero = () => {
             {[
               { icon: Mail, href: 'mailto:feranmiayodeji24@gmail.com', label:'Email', color: 'hover: text-red-400' },
               { icon: Github, href: 'https://github.com/Feranmi2241', label: 'GitHub', color: 'hover:text-gray-400' },
-              { icon: Linkedin, href: 'www.linkedin.com/in/oyeniyi-feranmi-93a10a231', label: 'LinkedIn', color: 'hover:text-blue-400' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/oyeniyi-feranmi-93a10a231', label: 'LinkedIn', color: 'hover:text-blue-400' },
              ].map(({ icon: Icon, href, label, color }) => (
               <motion.a
                 key={label}

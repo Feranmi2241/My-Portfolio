@@ -23,7 +23,7 @@ const Footer = () => {
     ],
     'Connect': [
       { name: 'GitHub', href: 'https://github.com/Feranmi2241' },
-      { name: 'LinkedIn', href: 'www.linkedin.com/in/oyeniyi-feranmi-93a10a231' },
+      { name: 'LinkedIn', href: 'https://www.linkedin.com/in/oyeniyi-feranmi-93a10a231' },
       { name: 'WhatsApp', href: 'https://wa.me/2348052052706' },
       { name: 'Email', href: 'mailto:feranmiayodeji24@gmail.com' },
     ],
