@@ -131,7 +131,7 @@ const Footer = () => {
               whileHover={{ color: "#d1d5db" }}
               transition={{ duration: 0.3 }}
             >
-              Built with Next.js, React,Mongo DB, Express, firebase, Tailwind css, bootstrap e.t.c. Hosting on Github and Deployment on vercel and Render...
+              Built with Next.js, React,Mongo DB, Express, firebase, Tailwind css, bootstrap. Hosting on Github and Deployment on vercel and Render...
 
             </motion.p>
           </div>
