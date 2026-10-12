@@ -70,8 +70,8 @@ const Projects = () => {
         'Protected seller and admin portal routes',
         'Input validation on listing and booking forms'
       ],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://autonoval-car-buying-and-selling.vercel.app/autonoval',
+      githubUrl: 'https://github.com/Feranmi2241/Autonoval',
       category: 'Frontend',
       stars: 0,
       forks: 0
@@ -202,7 +202,7 @@ const Projects = () => {
             variants={containerVariants}
             initial="hidden"
             animate="visible"
-            className="grid lg:grid-cols-2 gap-8"
+            className="grid lg:grid-cols-2 gap-8 items-stretch"
           >
             {filteredProjects.map((project, index) => {
               const IconComponent = getCategoryIcon(project.category)
@@ -210,7 +210,7 @@ const Projects = () => {
                 <motion.div
                   key={project.title}
                   variants={itemVariants}
-                  className="group relative"
+                  className="group relative h-full"
                   onMouseEnter={() => setHoveredProject(index)}
                   onMouseLeave={() => setHoveredProject(null)}
                 >
@@ -225,7 +225,7 @@ const Projects = () => {
                   />
                   
                   <motion.div 
-                    className="relative bg-dark-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl overflow-hidden hover-lift"
+                    className="relative bg-dark-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl overflow-hidden hover-lift flex flex-col h-full"
                     whileHover={{ 
                       borderColor: "rgba(16, 185, 129, 0.5)",
                       y: -8,
@@ -302,7 +302,7 @@ const Projects = () => {
                       </div>
                     </div>
 
-                    <div className="p-6">
+                    <div className="p-6 flex flex-col flex-1">
                       <motion.h3 
                         className="text-xl font-bold text-white mb-3"
                         whileHover={{ x: 5 }}
@@ -396,7 +396,7 @@ const Projects = () => {
                       </div>
 
                       {/* Enhanced Links */}
-                      <div className="flex gap-4">
+                      <div className="flex gap-4 mt-auto">
                         <motion.a
                           href={project.liveUrl}
                           target="_blank"
