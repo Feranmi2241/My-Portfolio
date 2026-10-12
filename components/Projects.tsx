@@ -70,7 +70,7 @@ const Projects = () => {
         'Protected seller and admin portal routes',
         'Input validation on listing and booking forms'
       ],
-      liveUrl: 'https://autonoval-car-buying-and-selling.vercel.app/autonoval',
+      liveUrl: 'https://autonoval-car-buying-and-selling.vercel.app/',
       githubUrl: 'https://github.com/Feranmi2241/Autonoval',
       category: 'Frontend',
       stars: 0,
