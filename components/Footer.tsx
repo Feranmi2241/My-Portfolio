@@ -132,7 +132,6 @@ const Footer = () => {
               transition={{ duration: 0.3 }}
             >
               Built with Next.js, React,Mongo DB, Express, firebase, Tailwind css, bootstrap. Hosting on Github and Deployment on vercel and Render...
-
             </motion.p>
           </div>
 

@@ -30,10 +30,55 @@ const Projects = () => {
       category: 'Full-Stack',
       stars: 5,
       forks: 2
+    },
+    {
+      title: 'E-Commerce Marketplace',
+      description: 'A modern e-commerce marketplace frontend with product browsing, category navigation, flash deals, and an installment-payment experience (Easy Buy). Includes a complete account system with a multi-step authentication flow, account settings, saved payment methods and addresses, and a notification center. Built with smooth Framer Motion animations. Backend integration is in progress.',
+      image: '/images/project2.jpg',
+      technologies: ['Next.js', 'React', 'Tailwind CSS', 'shadcn/ui', 'Framer Motion', 'Firebase Auth'],
+      features: [
+        'Product browsing, categories, and flash deals',
+        'Easy Buy: pay in 3 installments',
+        'Account settings with profile, addresses, and notifications',
+        'Saved cards and addresses management',
+        'Notification center with read/unread states'
+      ],
+      security: [
+        'Sign in / sign up with Google OAuth',
+        'OTP verification flow',
+        'Forgot and reset password flow',
+        'Password strength meter and live validation'
+      ],
+      liveUrl: 'https://e-commerce-marketplace-tau.vercel.app/',
+      githubUrl: 'https://github.com/Feranmi2241/e-commerce-marketplace',
+      category: 'Frontend',
+      stars: 0,
+      forks: 0
+    },
+    {
+      title: 'AutoNova Car Marketplace',
+      description: 'A modern car buying and selling marketplace frontend with dedicated experiences for buyers, sellers/dealers, and admins. Includes a car showroom with filters, seller dashboards with listing analytics, test-drive booking, an AI assistant interface, and a full admin portal interface. Backend integration is in progress.',
+      image: '/images/project3.jpg',
+      technologies: ['React', 'Vite', 'Tailwind CSS', 'Framer'],
+      features: [
+        'Car showroom with advanced filters',
+        'Seller dashboard with listing analytics',
+        'Test-drive booking and AI assistant interface'
+      ],
+      security: [
+        'Role-based access for buyers, sellers, and admins',
+        'Protected seller and admin portal routes',
+        'Input validation on listing and booking forms'
+      ],
+      liveUrl: '#',
+      githubUrl: '#',
+      category: 'Frontend',
+      stars: 0,
+      forks: 0
     }
   ]
 
-  const categories = ['All', 'Full-Stack']
+  const categories = ['All', 'Full-Stack', 'Frontend']
   const [activeCategory, setActiveCategory] = useState('All')
   const [hoveredProject, setHoveredProject] = useState<number | null>(null)
 

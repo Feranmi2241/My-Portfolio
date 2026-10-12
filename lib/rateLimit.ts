@@ -75,11 +75,11 @@ class RateLimit {
 
   private cleanup(now: number) {
     // Remove expired entries to prevent memory leaks
-    for (const [token, data] of this.cache.entries()) {
+    Array.from(this.cache.entries()).forEach(([token, data]) => {
       if (now > data.reset) {
         this.cache.delete(token)
       }
-    }
+    })
 
     // If cache is too large, remove oldest entries
     if (this.cache.size > this.uniqueTokenPerInterval) {

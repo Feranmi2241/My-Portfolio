@@ -33,6 +33,36 @@ const Experience = () => {
         'Deployment and Maintenance'
       ]
     },
+    {
+      title: 'Frontend Developer',
+      company: 'E-Commerce Marketplace (Personal Project)',
+      location: 'Remote',
+      period: '2026',
+      type: 'Project',
+      responsibilities: [
+        'Built a responsive e-commerce marketplace frontend with Next.js, React, Tailwind CSS, and shadcn/ui',
+        'Implemented product browsing, category navigation, flash deals with a live countdown, and an "Easy Buy" installment-payment experience',
+        'Integrated Firebase authentication with email/password and Google sign-in',
+        'Built a full account system: settings, saved addresses and payment methods, and a notification center',
+        'Added smooth animations with Framer Motion across the interface',
+        'Frontend complete; backend integration in progress'
+      ]
+    },
+    {
+      title: 'Frontend Developer',
+      company: 'AutoNova Car Marketplace (Personal Project)',
+      location: 'Remote',
+      period: '2026',
+      type: 'Project',
+      responsibilities: [
+        'Built a responsive car buying and selling marketplace frontend with React, Vite, and Tailwind CSS',
+        'Designed separate experiences for buyers, sellers/dealers, and admins with role-based flows',
+        'Built a car showroom with filters, listing details, test-drive booking, and a seller analytics dashboard',
+        'Built an admin portal interface covering listing approvals, user management, orders, and content management',
+        'Integrated Firebase authentication with role selection at sign-up and a separate admin login with an OTP step',
+        'Frontend complete; backend integration in progress'
+      ]
+    },
     // {
     //   title: 'Cybersecurity Intern',
     //   company: 'SecureTech Solutions',
