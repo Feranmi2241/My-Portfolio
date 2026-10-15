@@ -13,6 +13,9 @@ const TechStack = () => {
         { name: 'TypeScript', icon: '📘', level: 85 },
         { name: 'Tailwind CSS', icon: '🎨', level: 90 },
         { name: 'Bootstrap', icon: '🅱️', level: 80 },
+        { name: 'Framer Motion', icon: '🎬', level: 80 },
+        { name: 'shadcn/ui', icon: '🧩', level: 80 },
+        { name: 'Material UI', icon: '🧱', level: 75 },
       ]
     },
     {
@@ -33,19 +36,19 @@ const TechStack = () => {
         { name: 'MongoDB', icon: '🍃', level: 90 },
         { name: 'Firebase', icon: '🔥', level: 80 },
         { name: 'PostgreSQL', icon: '🐘', level: 75 },
-        { name: 'Redis', icon: '🔴', level: 70 },
       ]
     },
     {
-      title: 'Security & Tools',
+      title: 'Tools & Security',
       color: 'from-red-500 to-orange-500',
       technologies: [
         { name: 'JWT', icon: '🔐', level: 95 },
         { name: 'OAuth', icon: '🛡️', level: 85 },
-        { name: 'Helmet.js', icon: '⛑️', level: 90 },
         { name: 'Git/GitHub', icon: '📚', level: 95 },
         { name: 'Docker', icon: '🐳', level: 75 },
         { name: 'Vercel', icon: '▲', level: 85 },
+        { name: 'Vite', icon: '⚡', level: 85 },
+        { name: 'Figma', icon: '🖌️', level: 80 },
       ]
     }
   ]
@@ -77,7 +80,7 @@ const TechStack = () => {
             whileHover={{ color: "#d1d5db" }}
             transition={{ duration: 0.3 }}
           >
-            Technologies I use to build  scalable, and modern applications
+            Technologies I use to build  scalable and modern applications
           </motion.p>
         </motion.div>
 

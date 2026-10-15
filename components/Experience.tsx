@@ -63,6 +63,20 @@ const Experience = () => {
         'Frontend complete; backend integration in progress'
       ]
     },
+    {
+      title: 'UI/UX Designer',
+      company: 'Chuks & Vin Real Estate Super-App (Client Project)',
+      location: 'Remote',
+      period: '2026',
+      type: 'Client Project',
+      responsibilities: [
+        'Designed an end-to-end real estate ecosystem in Figma for a client: user mobile app, agent and service provider tools, admin web dashboard, and marketing website',
+        'Designed user flows including onboarding with OTP, swipe-based discovery, search and filters, booking, payments, and e-receipts',
+        'Designed agent workflows for listing housing, hostels, hotels, and event centers, plus earnings, payouts, and KYC verification',
+        'Designed an admin dashboard with platform analytics, user and listing management, verification, audit logs, and security settings',
+        'Maintained one consistent visual language and interaction pattern across the app, website, and admin panel'
+      ]
+    },
     // {
     //   title: 'Cybersecurity Intern',
     //   company: 'SecureTech Solutions',

@@ -103,7 +103,7 @@ const Hero = () => {
 
       {/* Floating Icons */}
       <motion.div
-        className="absolute top-20 left-20 text-primary-400/30"
+        className="absolute top-20 left-20 text-primary-400/30 hidden sm:block"
         variants={floatingVariants}
         animate="animate"
         whileHover={{ 
@@ -115,7 +115,7 @@ const Hero = () => {
         <Code size={40} />
       </motion.div>
       <motion.div
-        className="absolute bottom-32 right-20 text-accent-400/30"
+        className="absolute bottom-32 right-20 text-accent-400/30 hidden sm:block"
         variants={floatingVariants}
         animate="animate"
         transition={{ delay: 2 }}
@@ -127,7 +127,7 @@ const Hero = () => {
         <Shield size={35} />
       </motion.div>
       <motion.div
-        className="absolute top-1/3 right-10 text-purple-400/30"
+        className="absolute top-1/3 right-10 text-purple-400/30 hidden sm:block"
         variants={sparkleVariants}
         animate="animate"
         whileHover={{ 
@@ -148,7 +148,7 @@ const Hero = () => {
         >
           <motion.div variants={itemVariants} className="mb-6">
             <motion.span 
-              className="inline-block px-4 py-2 bg-accent-500/20 text-accent-400 rounded-full text-sm font-medium mb-4 border border-accent-500/30"
+              className="inline-block px-4 py-2 bg-accent-500/20 text-accent-400 rounded-full text-sm font-medium mb-4 border border-accent-500/30 text-center"
               whileHover={{ 
                 scale: 1.05,
                 borderColor: "rgba(16, 185, 129, 0.8)",

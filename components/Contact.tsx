@@ -265,7 +265,7 @@ const Contact = () => {
                         <p className="text-gray-400 text-sm">{info.label}</p>
                         <motion.a
                           href={info.href}
-                          className="text-white font-medium hover:text-accent-500 transition-colors duration-200"
+                          className="text-white font-medium hover:text-accent-500 transition-colors duration-200 break-all"
                           whileHover={{ scale: 1.05 }}
                           transition={{ duration: 0.3 }}
                         >

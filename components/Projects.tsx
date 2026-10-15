@@ -75,10 +75,33 @@ const Projects = () => {
       category: 'Frontend',
       stars: 0,
       forks: 0
+    },
+    {
+      title: 'Chuks & Vin Real Estate Super-App',
+      description: 'A client UI/UX design project: an end-to-end real estate ecosystem designed in Figma, making it effortless to find, book, and manage properties, services, hostels, and event centers. Covers a user mobile app, agent and service provider tools, an admin web dashboard, and a marketing website, all built on one consistent visual language.',
+      image: '/images/project4.jpg',
+      technologies: ['Figma', 'UI/UX Design', 'Mobile App Design', 'Web Dashboard', 'Design System'],
+      features: [
+        'Mobile app with swipe discovery, filters, and a full booking and payment flow',
+        'Agent and service provider dashboards with listing workflows',
+        'Admin web dashboard with analytics and user and listing management',
+        'Marketing website with a full user web dashboard'
+      ],
+      security: [
+        '2FA and role-based settings',
+        'KYC verification flow',
+        'VeriFlow agent and listing verification',
+        'Audit logs and withdrawal approvals'
+      ],
+      liveUrl: 'https://www.figma.com/design/RPM0ZCKCV3ErC34gPc6aJ6/CV-Properties-Real-Estate-Mobile-App?node-id=0-1',
+      githubUrl: '',
+      category: 'UI/UX Design',
+      stars: null,
+      forks: null
     }
   ]
 
-  const categories = ['All', 'Full-Stack', 'Frontend']
+  const categories = ['All', 'Full-Stack', 'Frontend', 'UI/UX Design']
   const [activeCategory, setActiveCategory] = useState('All')
   const [hoveredProject, setHoveredProject] = useState<number | null>(null)
 
@@ -285,20 +308,24 @@ const Projects = () => {
                       
                       {/* GitHub Stats */}
                       <div className="absolute bottom-4 left-4 flex gap-3">
-                        <motion.div 
-                          className="flex items-center gap-1 px-2 py-1 bg-black/30 backdrop-blur-sm rounded-full text-xs text-gray-300"
-                          whileHover={{ scale: 1.1 }}
-                        >
-                          <Star size={12} className="text-yellow-400" />
-                          {project.stars}
-                        </motion.div>
-                        <motion.div 
-                          className="flex items-center gap-1 px-2 py-1 bg-black/30 backdrop-blur-sm rounded-full text-xs text-gray-300"
-                          whileHover={{ scale: 1.1 }}
-                        >
-                          <GitBranch size={12} className="text-blue-400" />
-                          {project.forks}
-                        </motion.div>
+                        {project.stars !== null && (
+                          <motion.div 
+                            className="flex items-center gap-1 px-2 py-1 bg-black/30 backdrop-blur-sm rounded-full text-xs text-gray-300"
+                            whileHover={{ scale: 1.1 }}
+                          >
+                            <Star size={12} className="text-yellow-400" />
+                            {project.stars}
+                          </motion.div>
+                        )}
+                        {project.forks !== null && (
+                          <motion.div 
+                            className="flex items-center gap-1 px-2 py-1 bg-black/30 backdrop-blur-sm rounded-full text-xs text-gray-300"
+                            whileHover={{ scale: 1.1 }}
+                          >
+                            <GitBranch size={12} className="text-blue-400" />
+                            {project.forks}
+                          </motion.div>
+                        )}
                       </div>
                     </div>
 
@@ -337,7 +364,7 @@ const Projects = () => {
                       </div>
 
                       {/* Enhanced Features & Security */}
-                      <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <div className="grid lg:grid-cols-2 gap-4 mb-6">
                         <motion.div
                           whileHover={{ x: 5 }}
                           transition={{ duration: 0.3 }}
@@ -414,28 +441,30 @@ const Projects = () => {
                           >
                             <ExternalLink size={16} />
                           </motion.div>
-                          <span className="relative z-10">Live Demo</span>
+                          <span className="relative z-10">{project.githubUrl ? 'Live Demo' : 'View Design'}</span>
                         </motion.a>
                         
-                        <motion.a
-                          href={project.githubUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2 px-4 py-2 border border-gray-600 text-gray-300 rounded-lg font-medium hover:border-accent-500 hover:text-accent-500 transition-all duration-300 hover-lift"
-                          whileHover={{ 
-                            scale: 1.05,
-                            boxShadow: "0 10px 30px rgba(16, 185, 129, 0.4)"
-                          }}
-                          whileTap={{ scale: 0.95 }}
-                        >
-                          <motion.div
-                            whileHover={{ rotate: [0, -10, 10, 0] }}
-                            transition={{ duration: 0.5 }}
+                        {project.githubUrl && (
+                          <motion.a
+                            href={project.githubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 px-4 py-2 border border-gray-600 text-gray-300 rounded-lg font-medium hover:border-accent-500 hover:text-accent-500 transition-all duration-300 hover-lift"
+                            whileHover={{ 
+                              scale: 1.05,
+                              boxShadow: "0 10px 30px rgba(16, 185, 129, 0.4)"
+                            }}
+                            whileTap={{ scale: 0.95 }}
                           >
-                            <Github size={16} />
-                          </motion.div>
-                          Code
-                        </motion.a>
+                            <motion.div
+                              whileHover={{ rotate: [0, -10, 10, 0] }}
+                              transition={{ duration: 0.5 }}
+                            >
+                              <Github size={16} />
+                            </motion.div>
+                            Code
+                          </motion.a>
+                        )}
                       </div>
                     </div>
                   </motion.div>

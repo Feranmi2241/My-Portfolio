@@ -318,6 +318,22 @@ const About = () => {
                       to continuous learning, I build full-stack applications that are reliable, scalable, and aligned
                        with real-world business needs.
                   </motion.p>
+                  
+                  <motion.p 
+                    className="text-gray-300 leading-relaxed"
+                    initial={{ opacity: 0.8 }}
+                    whileHover={{ opacity: 1, x: 5 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    Recently, I have built two frontend marketplace projects. The first is an e-commerce marketplace
+                    built with Next.js, Tailwind CSS, shadcn/ui, and Framer Motion, with Firebase authentication
+                    and a full account system. The second is AutoNova, a car buying and selling marketplace built
+                    with React and Vite, with separate buyer, seller, and admin experiences. Both are frontend
+                    complete, with backend integration in progress. I also design in Figma: for my client
+                    Chuks &amp; Vin, I designed an end-to-end real estate super-app covering a mobile app,
+                    agent and service provider tools, an admin web dashboard, and a marketing website, which
+                    helps me bridge design and development.
+                  </motion.p>
                 </div>
               </motion.div>
             </div>

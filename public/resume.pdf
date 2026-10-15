@@ -1,6 +1,6 @@
 OYENIYI FERANMI DAMILARE
 
-Full Stack Developer (Frontend-Focused)
+Full-Stack Developer
 Ogbomosho, Oyo State, Nigeria
 
 GitHub: https://github.com/Feranmi2241
@@ -11,7 +11,7 @@ Portfolio: https://my-portfolio-1258.vercel.app/
 
 PROFESSIONAL SUMMARY
 
-A results-driven Junior Full Stack Developer with strong hands-on experience in building and deploying modern web applications. Specialized in developing scalable frontend and backend solutions using JavaScript-based technologies, with practical experience integrating databases, securing applications, and deploying production-ready systems. Focused primarily on full stack development, with a solid foundation in real-world project implementation involving user and admin role separation, data security, and performance optimization.
+A results-driven Full-Stack Developer with strong hands-on experience in building and deploying modern web applications. Specialized in developing scalable frontend and backend solutions using JavaScript-based technologies, with practical experience integrating databases, securing applications, and deploying production-ready systems. Focused primarily on full stack development, with a solid foundation in real-world project implementation involving user and admin role separation, data security, and performance optimization. Also experienced in UI/UX design with Figma, having designed a multi-platform real estate ecosystem for a client.
 
 TECHNICAL SKILLS
 Frontend Development
@@ -27,6 +27,16 @@ React.js
 Next.js
 
 TypeScript
+
+Vite
+
+Tailwind CSS
+
+shadcn/ui
+
+Framer Motion
+
+Responsive Design
 
 Backend Development
 
@@ -52,6 +62,16 @@ MongoDB (CRUD operations, schema design)
 
 Firebase (Authentication and data handling)
 
+UI/UX Design
+
+Figma
+
+Mobile App Design
+
+Web Dashboard Design
+
+Design Systems
+
 Version Control
 
 Git
@@ -67,7 +87,7 @@ Render (Backend deployment)
 Firebase Hosting
 
 WORK EXPERIENCE
-Junior Full Stack Developer
+Full-Stack Developer
 
 Project: Real Estate Management Web Application
 Live Project: https://real-estate-project-front-end.vercel.app/
@@ -107,6 +127,56 @@ Managing access restrictions for unauthenticated users.
 Handling structured data presentation for different property states and revenue calculations.
 
 Ensuring data integrity between admin inputs and user-visible content.
+
+UI/UX Designer (Client Project), 2026
+
+Project: Chuks & Vin Real Estate Super-App
+Design file: https://www.figma.com/design/RPM0ZCKCV3ErC34gPc6aJ6/CV-Properties-Real-Estate-Mobile-App?node-id=0-1
+
+Designed an end-to-end real estate ecosystem in Figma for a client, covering a user mobile app, agent and service provider tools, an admin web dashboard, and a marketing website.
+
+Key Responsibilities & Contributions:
+
+Designed user flows including onboarding with OTP, swipe-based discovery, search and filters, booking, payments, and e-receipts.
+
+Designed agent workflows for listing housing, hostels, hotels, and event centers, plus earnings, payouts, and KYC verification.
+
+Designed an admin dashboard with platform analytics, user and listing management, verification, audit logs, and security settings.
+
+Maintained one consistent visual language and interaction pattern across the app, website, and admin panel.
+
+PERSONAL PROJECTS
+E-Commerce Marketplace (Frontend), 2026
+
+Live: https://e-commerce-marketplace-tau.vercel.app/ | Code: https://github.com/Feranmi2241/e-commerce-marketplace
+
+Tech: Next.js, React, Tailwind CSS, shadcn/ui, Framer Motion, Firebase Authentication
+
+Built a responsive e-commerce marketplace frontend with product browsing, category navigation, flash deals with a live countdown, and an "Easy Buy" installment-payment experience.
+
+Integrated Firebase authentication with email/password and Google sign-in.
+
+Built a full account system: settings, saved addresses and payment methods, and a notification center.
+
+Added smooth animations with Framer Motion across the interface.
+
+Frontend complete; backend integration in progress.
+
+AutoNova Car Marketplace (Frontend), 2026
+
+Live: https://autonoval-car-buying-and-selling.vercel.app/ | Code: https://github.com/Feranmi2241/Autonoval
+
+Tech: React, Vite, Tailwind CSS, Framer Motion, Firebase Authentication
+
+Built a responsive car buying and selling marketplace frontend with separate role-based experiences for buyers, sellers/dealers, and admins.
+
+Built a car showroom with filters, listing details, test-drive booking, and a seller analytics dashboard.
+
+Built an admin portal interface covering listing approvals, user management, orders, and content management.
+
+Integrated Firebase authentication with role selection at sign-up and a separate admin login with an OTP step.
+
+Frontend complete; backend integration in progress.
 
 EDUCATION
 
